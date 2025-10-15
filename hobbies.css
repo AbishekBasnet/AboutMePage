@@ -314,15 +314,19 @@ h2 {
     background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%);
 }
 
-.book-card:hover .book-emoji {
-    transform: scale(1.3) rotateY(20deg);
-    filter: drop-shadow(0 5px 10px rgba(245, 87, 108, 0.3));
+.book-card:hover .book-image {
+    transform: scale(1.1) rotateY(10deg);
+    filter: brightness(1.1) drop-shadow(0 8px 20px rgba(245, 87, 108, 0.4));
 }
 
-.book-emoji {
-    font-size: 3rem;
+.book-image {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .book-card h3 {
@@ -375,15 +379,19 @@ h2 {
     background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
 }
 
-.manga-card:hover .manga-emoji {
-    transform: scale(1.2) rotateZ(15deg);
-    filter: drop-shadow(0 5px 10px rgba(251, 191, 36, 0.3));
+.manga-card:hover .manga-image {
+    transform: scale(1.15) rotate(5deg);
+    filter: brightness(1.1) drop-shadow(0 8px 20px rgba(251, 191, 36, 0.4));
 }
 
-.manga-emoji {
-    font-size: 3rem;
+.manga-image {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .manga-card h3 {
@@ -436,15 +444,19 @@ h2 {
     background: linear-gradient(135deg, #f3e8ff 0%, #ddd6fe 100%);
 }
 
-.movie-card:hover .movie-emoji {
-    transform: scale(1.25) rotateX(10deg);
-    filter: drop-shadow(0 8px 15px rgba(139, 92, 246, 0.4));
+.movie-card:hover .movie-image {
+    transform: scale(1.1) rotateY(-5deg);
+    filter: brightness(1.15) drop-shadow(0 10px 25px rgba(139, 92, 246, 0.5));
 }
 
-.movie-emoji {
-    font-size: 3rem;
+.movie-image {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
 .movie-card h3 {
